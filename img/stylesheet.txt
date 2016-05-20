@@ -1,0 +1,53 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-flag {
+    width: 10px;
+    height: 10px;
+    background-position: -5px -5px;
+}
+
+.sprite-heart {
+    width: 10px;
+    height: 8px;
+    background-position: -25px -5px;
+}
+
+.sprite-heart-grey {
+    width: 9px;
+    height: 8px;
+    background-position: -25px -23px;
+}
+
+.sprite-like {
+    width: 10px;
+    height: 10px;
+    background-position: -5px -41px;
+}
+
+.sprite-music {
+    width: 9px;
+    height: 10px;
+    background-position: -25px -41px;
+}
+
+.sprite-search {
+    width: 10px;
+    height: 10px;
+    background-position: -45px -5px;
+}
+
+.sprite-views {
+    width: 12px;
+    height: 8px;
+    background-position: -44px -25px;
+}
+
+.sprite-views-active {
+    width: 12px;
+    height: 8px;
+    background-position: -44px -43px;
+}
