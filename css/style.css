@@ -47,9 +47,8 @@ body {
 	background-color: #f6f6f6;
 	font-size: 0;
 }
-.city-photo {
-	display: inline-block;
-	vertical-align: top;
+.ticket img {
+	float: left;
 	margin-right: 15px;
 }
 .title-block {
@@ -81,8 +80,7 @@ body {
 	color: #999999;
 }
 .info-block {
-	display: inline-block;
-	vertical-align: top;
+	float: left;
 	font-size: 11px;
 	margin-top: 14px;
 }
@@ -104,10 +102,11 @@ body {
 	color: #fff;
 }
 .evaluate {
-	display: block;
+	display: inline-block;
+	vertical-align: top;
 	margin: 0;
 	min-width: 260px;
-	line-height: 14px;
+	line-height: 17px;
 	padding-left: 0;
 }
 .evaluate li {
@@ -120,6 +119,8 @@ body {
 	color: #000;
 }
 .rating {
+	display: inline-block;
+	vertical-align: top;
 	padding-left: 0;
 	margin: 0;
 	line-height: 17px;
@@ -128,8 +129,4 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 10px;
-}
-.block1 {
-	display: inline-block;
-	vertical-align: top;
 }
